@@ -1,8 +1,9 @@
+server:
+  port: 8081
 spring:
   cloud:
     config:
       server:
-        port: 8081
         git:
           default-label: config-server
           uri: https://github.com/Almg-star/microservicios-tutorial.git
